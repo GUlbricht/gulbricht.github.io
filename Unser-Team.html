@@ -131,7 +131,7 @@
                         <div class="panel-body">
                             <strong>Robot Game:</strong>
                                 <br>
-                                <a href="#" onClick="einblenden('almo'); return false;">
+                                <a href="#" onClick="einblenden('almo');ausblenden('eric');ausblenden('vivi');ausblenden('gregor');ausblenden('fabi');ausblenden('sebi');ausblenden('theresa');ausblenden('pascal');ausblenden('ji');ausblenden('martin'); return false;">
                                     <button class="btn btn-default">Almo - Teamleiter; Robot Programmier-Leiter</button>
                                 </a>
                                 <div id="almo">
@@ -147,7 +147,7 @@
                                     </div>
                                 </div>
                                 <br>
-                                <a href="#" onClick="einblenden('eric'); return false;">
+                                <a href="#" onClick="einblenden('eric');ausblenden('almo');ausblenden('vivi');ausblenden('gregor');ausblenden('fabi');ausblenden('sebi');ausblenden('theresa');ausblenden('pascal');ausblenden('ji');ausblenden('martin'); return false;">
                                     <button class="btn btn-default">Eric - Robot Programmier</button>
                                 </a>
                                 <div id="eric">
@@ -162,7 +162,7 @@
                                     </div>
                                 </div>
                                 <br>
-                                <a href="#" onClick="einblenden('vivi'); return false;">
+                                <a href="#" onClick="einblenden('vivi');ausblenden('eric');ausblenden('almo');ausblenden('gregor');ausblenden('fabi');ausblenden('sebi');ausblenden('theresa');ausblenden('pascal');ausblenden('ji');ausblenden('martin'); return false;">
                                     <button class="btn btn-default">Vivi - Robot Mechanical-Leiter</button>
                                 </a>
                                 <div id="vivi">
@@ -177,7 +177,7 @@
                                     </div>
                                 </div>
                                 <br>
-                                <a href="#" onClick="einblenden('gregor'); return false;">
+                                <a href="#" onClick="einblenden('gregor');ausblenden('eric');ausblenden('vivi');ausblenden('almo');ausblenden('fabi');ausblenden('sebi');ausblenden('theresa');ausblenden('pascal');ausblenden('ji');ausblenden('martin'); return false;">
                                     <button class="btn btn-default">Gregor - Robot Mechanical &amp; Strategy</button>
                                 </a>
                                 <div id="gregor">
@@ -197,7 +197,7 @@
                             <br><br>
                              <strong>Teamwork:</strong>
                                 <br>
-                                <a href="#" onClick="einblenden('fabi'); return false;">
+                                <a href="#" onClick="einblenden('fabi');ausblenden('eric');ausblenden('vivi');ausblenden('gregor');ausblenden('almo');ausblenden('sebi');ausblenden('theresa');ausblenden('pascal');ausblenden('ji');ausblenden('martin'); return false;">
                                     <button class="btn btn-default">Fabi - Teamwork-Leiter</button>
                                 </a>
                                 <div id="fabi">
@@ -208,14 +208,14 @@
                                                 <li><strong>Alter</strong>: 15</li>
                                                 <li>Schüler in der 9. Klasse am Gymnasium Ottobrunn</li> </ul>
                                         </div>
-                                        <div class="col-md-4"> <img class="img-responsive artikelbild" src="Bilder/Portrait/Fabi.jpg" alt="Vivi"> </div>
+                                        <div class="col-md-4"> <img class="img-responsive artikelbild" src="Bilder/Portrait/Fabi.jpg" alt="Fabi"> </div>
                                     </div>
                                 </div>
                                 <br>
                             <br>
                             <strong>Research:</strong>
                                 <br>
-                                <a href="#" onClick="einblenden('sebi'); return false;">
+                                <a href="#" onClick="einblenden('sebi');ausblenden('eric');ausblenden('vivi');ausblenden('gregor');ausblenden('fabi');ausblenden('almo');ausblenden('theresa');ausblenden('pascal');ausblenden('ji');ausblenden('martin'); return false;">
                                     <button class="btn btn-default">Sebi - Forschung-Leiter</button>
                                 </a>
                                 <div id="sebi">
@@ -230,7 +230,7 @@
                                     </div>
                                 </div>
                                 <br>
-                                <a href="#" onClick="einblenden('theresa'); return false;">
+                                <a href="#" onClick="einblenden('theresa');ausblenden('eric');ausblenden('vivi');ausblenden('gregor');ausblenden('fabi');ausblenden('sebi');ausblenden('almo');ausblenden('pascal');ausblenden('ji');ausblenden('martin'); return false;">
                                     <button class="btn btn-default">Theresa - Forschung-Recherche</button>
                                 </a>
                                 <div id="theresa">
@@ -245,7 +245,7 @@
                                     </div>
                                 </div>
                                 <br>
-                                <a href="#" onClick="einblenden('pascal'); return false;">
+                                <a href="#" onClick="einblenden('pascal');ausblenden('eric');ausblenden('vivi');ausblenden('gregor');ausblenden('fabi');ausblenden('sebi');ausblenden('theresa');ausblenden('almo');ausblenden('ji');ausblenden('martin'); return false;">
                                     <button class="btn btn-default">Pascal - Forschung-externe Kontakte</button>
                                 </a>
                                 <div id="pascal">
@@ -260,7 +260,7 @@
                                     </div>
                                 </div>
                                 <br>
-                                <a href="#" onClick="einblenden('ji'); return false;">
+                                <a href="#" onClick="einblenden('ji');ausblenden('eric');ausblenden('vivi');ausblenden('gregor');ausblenden('fabi');ausblenden('sebi');ausblenden('theresa');ausblenden('pascal');ausblenden('almo');ausblenden('martin'); return false;">
                                     <button class="btn btn-default">Ji - Forschung-Präsentation</button>
                                 </a>
                                 <div id="ji">
@@ -275,7 +275,7 @@
                                     </div>
                                 </div>
                                 <br>
-                                <a href="#" onClick="einblenden('martin'); return false;">
+                                <a href="#" onClick="einblenden('martin');ausblenden('eric');ausblenden('vivi');ausblenden('gregor');ausblenden('fabi');ausblenden('sebi');ausblenden('theresa');ausblenden('pascal');ausblenden('ji');ausblenden('almo'); return false;">
                                     <button class="btn btn-default">Martin - Analyse &amp; Robot Mechanical</button>
                                 </a>
                                 <div id="martin">
@@ -322,6 +322,13 @@
                 }
                 else {
                     display = "inline";
+                }
+            }
+        }
+        function ausblenden(div) {
+            with(document.getElementById(div).style) {
+                if (display == "inline") {
+                    display = "none";
                 }
             }
         }
