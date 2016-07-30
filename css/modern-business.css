@@ -90,12 +90,19 @@ header.carousel .fill {
 /* Footer Styles */
 
 footer {
-    line-height: 50px;
+    line-height: 40px;
     text-align: center;
     background-color: #9e9898;
-    height: 50px;
+    height: 70px;
     position: relative;
     z-index: 1;
+}
+
+#copyright {
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 
