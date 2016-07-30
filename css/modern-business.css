@@ -92,17 +92,16 @@ header.carousel .fill {
 footer {
     line-height: 40px;
     text-align: center;
-    background-color: #9e9898;
-    height: 70px;
+    background-color: #9e9999;
+    height: 60px;
     position: relative;
     z-index: 1;
 }
 
 #copyright {
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 5px;
+    line-height: 5px;
     text-align: center;
-    margin-bottom: 10px;
 }
 
 
@@ -124,16 +123,10 @@ footer {
     }
 }
 
-@media(max-width:1500px){
-    .content {
-        
-    }
-}
-
 @media(min-width:100px){
     .content {
         min-height: 100%;
-    margin-bottom: -30px;
+    margin-bottom: -100px;
     }
 }
 
