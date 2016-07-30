@@ -55,8 +55,8 @@ header.carousel .fill {
 
 .content {
     min-height: 100%;
-    margin-bottom: -100px;
-    /* Equivalent to footer's height */
+    margin-bottom: -120px;
+/* Equivalent to footer's height */
 }
 
 
@@ -124,10 +124,23 @@ footer {
     }
 }
 
+@media(max-width:1500px){
+    .content {
+        
+    }
+}
+
+@media(min-width:100px){
+    .content {
+        min-height: 100%;
+    margin-bottom: -30px;
+    }
+}
+
+
 .navbar {
     background-color: black;
 }
-
 
 /* andere Styles */
 
@@ -179,4 +192,8 @@ dropdown {
 #martin {
     display: none;
 }
+
+
+
+
 
