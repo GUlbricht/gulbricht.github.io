@@ -160,6 +160,9 @@ footer {
 @media(min-width: 700px){
 	margin-left: 600px;
 }
+@media(max-width: 1200px){
+	width: 700px;
+}
 
 
 .navbar {
