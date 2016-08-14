@@ -160,7 +160,7 @@ footer {
 @media(min-width: 700px){
 	margin-left: 600px;
 }
-@media(max-width: 1200px){
+@media(min-width: 100px){
 	width: 700px;
 }
 
