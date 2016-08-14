@@ -157,19 +157,6 @@ footer {
 	}
 	margin-left: 1100px;
 }
-
-@media(min-width: 1100px){
-	margin-left: 1000px;
-}
-@media(min-width: 1000px){
-	margin-left: 900px;
-}
-@media(min-width: 900px){
-	margin-left: 800px;
-}
-@media(min-width: 800px){
-	margin-left: 700px;
-}
 @media(min-width: 700px){
 	margin-left: 600px;
 }
