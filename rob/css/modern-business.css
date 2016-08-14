@@ -130,7 +130,7 @@ footer {
     }
 }
 
-@media(min-width: 1200px) {
+/* @media(min-width: 1200px) {*/
 	.navbar-fixed-top {
 		top: 0;
 		border-width: 0 0 1;
@@ -155,7 +155,7 @@ footer {
 	.navbar-header {
 		float: left;
 	}
-}
+
 
 
 .navbar {
