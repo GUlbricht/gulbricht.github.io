@@ -6,3 +6,8 @@
     max-width: 100%;
     height: auto;
 }
+
+/* unser Team */
+#gregor, #vivi, #almo, #eric, #fabi, #sebi, #theresa, #pascal, #ji, #martin {
+    display: none;
+}
