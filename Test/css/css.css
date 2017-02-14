@@ -52,7 +52,7 @@
     padding: 15px;
 }
 
-/*.btn-index {
+.btn-index {
     color: #333;
     background-color: #fff;
     border-color: #ccc;
@@ -75,7 +75,7 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-}*/
+}
 
 * {
     -webkit-box-sizing: border-box;
