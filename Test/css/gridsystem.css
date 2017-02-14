@@ -21,3 +21,10 @@
   content: "";
   clear: both;
 }
+
+.container {
+    margin-left: 90.500;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
