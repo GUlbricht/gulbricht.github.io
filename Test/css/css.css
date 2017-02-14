@@ -32,7 +32,10 @@
     border-color: #ddd;
 }
 .panel-heading {
-    padding: 10px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
