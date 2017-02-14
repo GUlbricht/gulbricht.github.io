@@ -59,6 +59,9 @@
     color: #333;
     background-color: #fff;
     border-color: #ccc;
+}
+
+.btn {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
