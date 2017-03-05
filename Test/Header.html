@@ -32,11 +32,11 @@
   } else if (window.ActiveXObject) {
      http = new ActiveXObject("Microsoft.XMLHTTP");
   }
-  //if (http != null) {
+  if (http != null) {
      http.open("GET", "../navbar.html", true);
      http.onreadystatechange = ausgeben;
      http.send(null);
-  //}
+  }
 
   function ausgeben() {
      if (http.readyState == 4) {
