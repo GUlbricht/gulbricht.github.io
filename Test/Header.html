@@ -46,6 +46,8 @@
   }
   console.log("Start");
   //window.addEventListener ('DOMContentLoaded', nachladen);
-  document.addEventListener('DOMContentLoaded', nachladen);
+  //document.addEventListener('DOMContentLoaded', nachladen);
+  var DOMFertig = document.querySelector("#Ende");
+  DOMFertig.onload = nachladen;
   console.log("Ende");
   </script>
