@@ -47,7 +47,13 @@
   }
   }
 
-document.addEventListener('DOMContentLoaded', nachladen);
-//var DOMFertig = document.querySelector("#Ende");
-//DOMFertig.onload = nachladen;
-  </script>
+  function addAChild () {
+    var navbar = document.createElement('navbar');
+    var nav = document.createTextNode('Eine sehr dynamische Seite');
+    myH2.appendChild(nav);
+    var Ausgabebereich = document.getElementById('Ausgabe');
+    Ausgabebereich.appendChild(navbar);
+  }
+
+  document.addEventListener('DOMContentLoaded', addAChild);
+</script>
