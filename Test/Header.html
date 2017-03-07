@@ -40,14 +40,15 @@
 
   function ausgeben() {
      if (http.readyState == 4) {
+       console.log("Start");
         document.querySelector("#Ausgabe").innerHTML = http.responseText;
+        console.log("Ende");
      }
   }
   }
-  console.log("Start");
+
   //window.addEventListener ('DOMContentLoaded', nachladen);
   //document.addEventListener('DOMContentLoaded', nachladen);
-  var DOMFertig = document.querySelector("#Ende");
-  DOMFertig.onload = nachladen;
-  console.log("Ende");
+  //var DOMFertig = document.querySelector("#Ende");
+  //DOMFertig.onload = nachladen;
   </script>
