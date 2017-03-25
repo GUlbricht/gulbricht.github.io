@@ -12,7 +12,7 @@
 <meta name="robots" content="index, follow" />
 <meta name="google-site-verification" content="pNB5VTnbURiy9xQmq5it1mWErwZK2QIOq8VYvbXGQnk" />
 <title>GO Robotik</title>
-<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/GUlbricht/gulbricht.github.io/rob/master/Bilder/FaceQ.png">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/GUlbricht/gulbricht.github.io/master/rob/Bilder/FaceQ.png?token=ATv-5ykLwFPxi_b1qNmHkciHGtFYkJgeks5Y32MrwA%3D%3D">
 <link href="js/jquery.js" rel="script">
 <link href="css/navbar.css" rel="stylesheet">
 <link href="css/gridsystem.css" rel="stylesheet">
@@ -23,37 +23,3 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-
-<script type="text/javascript">
-  function nachladen() {
-  var http = null;
-  if (window.XMLHttpRequest) {
-     http = new XMLHttpRequest();
-  } else if (window.ActiveXObject) {
-     http = new ActiveXObject("Microsoft.XMLHTTP");
-  }
-  if (http != null) {
-     http.open("GET", "../navbar.html", true);
-     http.onreadystatechange = ausgeben;
-     http.send(null);
-  }
-
-  function ausgeben() {
-     if (http.readyState == 4) {
-       console.log("Start");
-        document.querySelector("#Ausgabe").innerHTML = http.responseText;
-        console.log("Ende");
-     }
-  }
-  }
-
-  function addAChild () {
-    var navbar = document.createElement('navbar');
-    var nav = document.createTextNode('Eine sehr dynamische Seite');
-    myH2.appendChild(nav);
-    var Ausgabebereich = document.getElementById('Ausgabe');
-    Ausgabebereich.appendChild(navbar);
-  }
-
-  document.addEventListener('DOMContentLoaded', nachladen);
-</script>
