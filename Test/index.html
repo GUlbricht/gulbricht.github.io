@@ -27,22 +27,18 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript">
-      function myFunction(x) {
-        x.classList.toggle("change");
-      }
-      </script>
 </head>
 
 <body>
     <!-- Navigation -->
     <div class="nav-bar">
         <ul>
-            <div id="burgermenue" onclick="myFunction(this)">
-              <div class="burger" id="bar1"></div>
-              <div class="burger" id="bar2"></div>
-              <div class="burger" id="bar3"></div>
-            </div>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
             <div id="collapsed">
                 <a href="index.html"><img class="nav-bild" src="Bilder/GO_Robot.png"></a>
                 <li><a href="news.html">News</a></li>
