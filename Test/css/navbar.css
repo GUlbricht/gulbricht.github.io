@@ -61,7 +61,7 @@ li.dropdown {
   top: 0px;
   position: fixed;
   width: 100%;
-  z-index: 100;
+  z-index: 9;
 }
 
 .nav-bild {
@@ -80,6 +80,7 @@ li.dropdown {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  display: none;
 }
 
 button {
@@ -111,4 +112,11 @@ button {
   width: 22px;
   height: 2px;
   border-radius: 1px;
+  z-index: 10;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-toogle {
+    display: block;
+  }
 }
