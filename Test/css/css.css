@@ -84,16 +84,6 @@ hr {
     padding: 15px;
 }
 
-.panel-body:before {
-  display: table;
-  content: " ";
-}
-
-.panel-body:after {
-  display: table;
-  content: " ";
-}
-
 .btn-default {
     color: #333;
     background-color: #fff;
@@ -126,4 +116,16 @@ hr {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box
+}
+
+
+.panel-body:before, .row:before, .container:before {
+  display: table;
+  content: " ";
+}
+
+.panel-body:after, .row:after, .container:after{
+  display: table;
+  content: " ";
+  clear: both;
 }
