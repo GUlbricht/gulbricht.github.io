@@ -22,6 +22,12 @@ body {
     display: block;
 }
 
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -76,6 +82,16 @@ hr {
 }
 .panel-body {
     padding: 15px;
+}
+
+.panel-body:before {
+  display: table;
+  content: " ";
+}
+
+.panel-body:after {
+  display: table;
+  content: " ";
 }
 
 .btn-default {
