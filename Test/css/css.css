@@ -22,12 +22,6 @@ body {
     display: block;
 }
 
-:after, :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -118,6 +112,11 @@ hr {
     box-sizing: border-box
 }
 
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 .panel-body:before, .row:before, .container:before {
   display: table;
