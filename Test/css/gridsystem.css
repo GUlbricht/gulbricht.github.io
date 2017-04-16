@@ -16,6 +16,18 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    .col-offset-1 {margin-left: 8.33%;}
+    .col-offset-2 {margin-left: 16.66%;}
+    .col-offset-3 {margin-left: 25%;}
+    .col-offset-4 {margin-left: 33.33%;}
+    .col-offset-5 {margin-left: 41.66%;}
+    .col-offset-6 {margin-left: 50%;}
+    .col-offset-7 {margin-left: 58.33%;}
+    .col-offset-8 {margin-left: 66.66%;}
+    .col-offset-9 {margin-left: 75%;}
+    .col-offset-10 {margin-left: 83.33%;}
+    .col-offset-11 {margin-left: 91.66%;}
+    .col-offset-12 {margin-left: 100%;}
 }
 [class*="col-"] {
     float: left;
